@@ -1,0 +1,33 @@
+{
+  "name": "jt_562_final",
+  "version": "1.0.0",
+  "description": "Jimmy's ITMD 562 Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "final",
+    "project",
+    "youtube",
+    "downloader"
+  ],
+  "author": "Jimmy Tran",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.1",
+    "ytdl-core": "^1.0.3"
+  }
+}
